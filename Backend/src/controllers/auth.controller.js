@@ -105,7 +105,7 @@ async function loginUserController(req, res) {
  * @description clear token from user cookie and add the token in blacklist
  * @access public
  */
-async function logoutUserController(req, res) {
+async function  logoutUserController(req, res) {
     const token = req.cookies.token
 
     if (token) {
